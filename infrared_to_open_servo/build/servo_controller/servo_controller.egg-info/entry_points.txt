@@ -1,0 +1,3 @@
+[console_scripts]
+serial_node = servo_controller.serial_node:main
+teleop_key = servo_controller.teleop_key:main

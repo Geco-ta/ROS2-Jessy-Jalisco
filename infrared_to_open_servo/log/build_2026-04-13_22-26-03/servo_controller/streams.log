@@ -1,0 +1,25 @@
+[1.835s] Invoking command in '/home/umark135/ros2_coba2/src/servo_controller': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/umark135/ros2_coba2/build/servo_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/umark135/ros2_coba2/install/servo_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/servo_controller build --build-base /home/umark135/ros2_coba2/build/servo_controller/build install --record /home/umark135/ros2_coba2/build/servo_controller/install.log --single-version-externally-managed install_data
+[2.431s] running egg_info
+[2.478s] writing ../../build/servo_controller/servo_controller.egg-info/PKG-INFO
+[2.479s] writing dependency_links to ../../build/servo_controller/servo_controller.egg-info/dependency_links.txt
+[2.479s] writing entry points to ../../build/servo_controller/servo_controller.egg-info/entry_points.txt
+[2.479s] writing requirements to ../../build/servo_controller/servo_controller.egg-info/requires.txt
+[2.479s] writing top-level names to ../../build/servo_controller/servo_controller.egg-info/top_level.txt
+[2.577s] reading manifest file '../../build/servo_controller/servo_controller.egg-info/SOURCES.txt'
+[2.578s] writing manifest file '../../build/servo_controller/servo_controller.egg-info/SOURCES.txt'
+[2.578s] running build
+[2.579s] running build_py
+[2.579s] copying servo_controller/serial_node.py -> /home/umark135/ros2_coba2/build/servo_controller/build/lib/servo_controller
+[2.579s] running install
+[2.592s] running install_lib
+[2.642s] copying /home/umark135/ros2_coba2/build/servo_controller/build/lib/servo_controller/serial_node.py -> /home/umark135/ros2_coba2/install/servo_controller/lib/python3.12/site-packages/servo_controller
+[2.643s] byte-compiling /home/umark135/ros2_coba2/install/servo_controller/lib/python3.12/site-packages/servo_controller/serial_node.py to serial_node.cpython-312.pyc
+[2.645s] running install_data
+[2.646s] running install_egg_info
+[2.695s] removing '/home/umark135/ros2_coba2/install/servo_controller/lib/python3.12/site-packages/servo_controller-0.0.0-py3.12.egg-info' (and everything under it)
+[2.696s] Copying ../../build/servo_controller/servo_controller.egg-info to /home/umark135/ros2_coba2/install/servo_controller/lib/python3.12/site-packages/servo_controller-0.0.0-py3.12.egg-info
+[2.697s] running install_scripts
+[3.006s] Installing serial_node script to /home/umark135/ros2_coba2/install/servo_controller/lib/servo_controller
+[3.006s] Installing teleop_key script to /home/umark135/ros2_coba2/install/servo_controller/lib/servo_controller
+[3.007s] writing list of installed files to '/home/umark135/ros2_coba2/build/servo_controller/install.log'
+[3.082s] Invoked command in '/home/umark135/ros2_coba2/src/servo_controller' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/umark135/ros2_coba2/build/servo_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/umark135/ros2_coba2/install/servo_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/servo_controller build --build-base /home/umark135/ros2_coba2/build/servo_controller/build install --record /home/umark135/ros2_coba2/build/servo_controller/install.log --single-version-externally-managed install_data

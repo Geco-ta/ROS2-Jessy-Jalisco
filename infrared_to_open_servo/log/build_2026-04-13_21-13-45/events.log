@@ -1,0 +1,80 @@
+[0.000000] (-) TimerEvent: {}
+[0.001647] (servo_controller) JobQueued: {'identifier': 'servo_controller', 'dependencies': OrderedDict()}
+[0.001727] (servo_controller) JobStarted: {'identifier': 'servo_controller'}
+[0.098835] (-) TimerEvent: {}
+[0.199323] (-) TimerEvent: {}
+[0.300929] (-) TimerEvent: {}
+[0.401296] (-) TimerEvent: {}
+[0.503267] (-) TimerEvent: {}
+[0.603702] (-) TimerEvent: {}
+[0.704111] (-) TimerEvent: {}
+[0.804510] (-) TimerEvent: {}
+[0.904887] (-) TimerEvent: {}
+[1.005733] (-) TimerEvent: {}
+[1.107789] (-) TimerEvent: {}
+[1.208215] (-) TimerEvent: {}
+[1.309050] (-) TimerEvent: {}
+[1.409529] (-) TimerEvent: {}
+[1.511398] (-) TimerEvent: {}
+[1.611819] (-) TimerEvent: {}
+[1.712407] (-) TimerEvent: {}
+[1.812948] (-) TimerEvent: {}
+[1.914010] (-) TimerEvent: {}
+[2.014408] (-) TimerEvent: {}
+[2.114794] (-) TimerEvent: {}
+[2.215186] (-) TimerEvent: {}
+[2.316127] (-) TimerEvent: {}
+[2.417338] (-) TimerEvent: {}
+[2.453206] (servo_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/servo_controller', 'build', '--build-base', '/home/umark135/ros2_coba2/build/servo_controller/build', 'install', '--record', '/home/umark135/ros2_coba2/build/servo_controller/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/umark135/ros2_coba2/src/servo_controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'umark135', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/umark135', 'OLDPWD': '/home/umark135', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2095', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/umark135/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'umark135', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'umark135', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/umark135:@/tmp/.ICE-unix/2068,unix/umark135:/tmp/.ICE-unix/2068', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/18266b05_f563_4248_9302_d00f76d9748d', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.C0SRN3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.113', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/umark135/ros2_ws/install/my_py_pkg:/home/umark135/ros2_ws/install/my_first_package:/home/umark135/ros2_ws/install/my_cpp_pkg:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/umark135/ros2_coba2/build/servo_controller', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/umark135/ros2_coba2/build/servo_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/umark135/ros2_coba2/install/servo_controller/lib/python3.12/site-packages:/home/umark135/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/umark135/ros2_ws/install/my_first_package/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/umark135/ros2_ws/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[2.517823] (-) TimerEvent: {}
+[2.618669] (-) TimerEvent: {}
+[2.719014] (-) TimerEvent: {}
+[2.819422] (-) TimerEvent: {}
+[2.923140] (-) TimerEvent: {}
+[3.023528] (-) TimerEvent: {}
+[3.071239] (servo_controller) StdoutLine: {'line': b'running egg_info\n'}
+[3.071802] (servo_controller) StdoutLine: {'line': b'creating ../../build/servo_controller/servo_controller.egg-info\n'}
+[3.119512] (servo_controller) StdoutLine: {'line': b'writing ../../build/servo_controller/servo_controller.egg-info/PKG-INFO\n'}
+[3.119918] (servo_controller) StdoutLine: {'line': b'writing dependency_links to ../../build/servo_controller/servo_controller.egg-info/dependency_links.txt\n'}
+[3.120319] (servo_controller) StdoutLine: {'line': b'writing requirements to ../../build/servo_controller/servo_controller.egg-info/requires.txt\n'}
+[3.120575] (servo_controller) StdoutLine: {'line': b'writing top-level names to ../../build/servo_controller/servo_controller.egg-info/top_level.txt\n'}
+[3.120827] (servo_controller) StdoutLine: {'line': b"writing manifest file '../../build/servo_controller/servo_controller.egg-info/SOURCES.txt'\n"}
+[3.123626] (-) TimerEvent: {}
+[3.218726] (servo_controller) StdoutLine: {'line': b"reading manifest file '../../build/servo_controller/servo_controller.egg-info/SOURCES.txt'\n"}
+[3.219930] (servo_controller) StdoutLine: {'line': b"writing manifest file '../../build/servo_controller/servo_controller.egg-info/SOURCES.txt'\n"}
+[3.220366] (servo_controller) StdoutLine: {'line': b'running build\n'}
+[3.220606] (servo_controller) StdoutLine: {'line': b'running build_py\n'}
+[3.220861] (servo_controller) StdoutLine: {'line': b'creating /home/umark135/ros2_coba2/build/servo_controller/build\n'}
+[3.221145] (servo_controller) StdoutLine: {'line': b'creating /home/umark135/ros2_coba2/build/servo_controller/build/lib\n'}
+[3.221319] (servo_controller) StdoutLine: {'line': b'creating /home/umark135/ros2_coba2/build/servo_controller/build/lib/servo_controller\n'}
+[3.221577] (servo_controller) StdoutLine: {'line': b'copying servo_controller/__init__.py -> /home/umark135/ros2_coba2/build/servo_controller/build/lib/servo_controller\n'}
+[3.221789] (servo_controller) StdoutLine: {'line': b'copying servo_controller/serial_node.py -> /home/umark135/ros2_coba2/build/servo_controller/build/lib/servo_controller\n'}
+[3.222027] (servo_controller) StdoutLine: {'line': b'copying servo_controller/teleop_key.py -> /home/umark135/ros2_coba2/build/servo_controller/build/lib/servo_controller\n'}
+[3.222180] (servo_controller) StdoutLine: {'line': b'running install\n'}
+[3.223746] (-) TimerEvent: {}
+[3.236517] (servo_controller) StdoutLine: {'line': b'running install_lib\n'}
+[3.285493] (servo_controller) StdoutLine: {'line': b'creating /home/umark135/ros2_coba2/install/servo_controller/lib/python3.12/site-packages/servo_controller\n'}
+[3.285889] (servo_controller) StdoutLine: {'line': b'copying /home/umark135/ros2_coba2/build/servo_controller/build/lib/servo_controller/__init__.py -> /home/umark135/ros2_coba2/install/servo_controller/lib/python3.12/site-packages/servo_controller\n'}
+[3.286094] (servo_controller) StdoutLine: {'line': b'copying /home/umark135/ros2_coba2/build/servo_controller/build/lib/servo_controller/serial_node.py -> /home/umark135/ros2_coba2/install/servo_controller/lib/python3.12/site-packages/servo_controller\n'}
+[3.286316] (servo_controller) StdoutLine: {'line': b'copying /home/umark135/ros2_coba2/build/servo_controller/build/lib/servo_controller/teleop_key.py -> /home/umark135/ros2_coba2/install/servo_controller/lib/python3.12/site-packages/servo_controller\n'}
+[3.287104] (servo_controller) StdoutLine: {'line': b'byte-compiling /home/umark135/ros2_coba2/install/servo_controller/lib/python3.12/site-packages/servo_controller/__init__.py to __init__.cpython-312.pyc\n'}
+[3.287581] (servo_controller) StdoutLine: {'line': b'byte-compiling /home/umark135/ros2_coba2/install/servo_controller/lib/python3.12/site-packages/servo_controller/serial_node.py to serial_node.cpython-312.pyc\n'}
+[3.287884] (servo_controller) StdoutLine: {'line': b'byte-compiling /home/umark135/ros2_coba2/install/servo_controller/lib/python3.12/site-packages/servo_controller/teleop_key.py to teleop_key.cpython-312.pyc\n'}
+[3.288242] (servo_controller) StdoutLine: {'line': b'running install_data\n'}
+[3.288501] (servo_controller) StdoutLine: {'line': b'creating /home/umark135/ros2_coba2/install/servo_controller/share/ament_index\n'}
+[3.288805] (servo_controller) StdoutLine: {'line': b'creating /home/umark135/ros2_coba2/install/servo_controller/share/ament_index/resource_index\n'}
+[3.289002] (servo_controller) StdoutLine: {'line': b'creating /home/umark135/ros2_coba2/install/servo_controller/share/ament_index/resource_index/packages\n'}
+[3.289238] (servo_controller) StdoutLine: {'line': b'copying resource/servo_controller -> /home/umark135/ros2_coba2/install/servo_controller/share/ament_index/resource_index/packages\n'}
+[3.289400] (servo_controller) StdoutLine: {'line': b'copying package.xml -> /home/umark135/ros2_coba2/install/servo_controller/share/servo_controller\n'}
+[3.289552] (servo_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.323917] (-) TimerEvent: {}
+[3.341746] (servo_controller) StdoutLine: {'line': b'Copying ../../build/servo_controller/servo_controller.egg-info to /home/umark135/ros2_coba2/install/servo_controller/lib/python3.12/site-packages/servo_controller-0.0.0-py3.12.egg-info\n'}
+[3.343382] (servo_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[3.424016] (-) TimerEvent: {}
+[3.524395] (-) TimerEvent: {}
+[3.624785] (-) TimerEvent: {}
+[3.654548] (servo_controller) StdoutLine: {'line': b"writing list of installed files to '/home/umark135/ros2_coba2/build/servo_controller/install.log'\n"}
+[3.724976] (-) TimerEvent: {}
+[3.728984] (servo_controller) CommandEnded: {'returncode': 0}
+[3.756612] (servo_controller) JobEnded: {'identifier': 'servo_controller', 'rc': 0}
+[3.757993] (-) EventReactorShutdown: {}

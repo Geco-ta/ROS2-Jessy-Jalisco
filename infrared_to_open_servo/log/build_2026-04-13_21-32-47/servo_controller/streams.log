@@ -1,0 +1,28 @@
+[1.904s] Invoking command in '/home/umark135/ros2_coba2/src/servo_controller': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/umark135/ros2_coba2/build/servo_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/umark135/ros2_coba2/install/servo_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/servo_controller build --build-base /home/umark135/ros2_coba2/build/servo_controller/build install --record /home/umark135/ros2_coba2/build/servo_controller/install.log --single-version-externally-managed install_data
+[2.523s] running egg_info
+[2.572s] writing ../../build/servo_controller/servo_controller.egg-info/PKG-INFO
+[2.572s] writing dependency_links to ../../build/servo_controller/servo_controller.egg-info/dependency_links.txt
+[2.572s] writing entry points to ../../build/servo_controller/servo_controller.egg-info/entry_points.txt
+[2.573s] writing requirements to ../../build/servo_controller/servo_controller.egg-info/requires.txt
+[2.573s] writing top-level names to ../../build/servo_controller/servo_controller.egg-info/top_level.txt
+[2.673s] reading manifest file '../../build/servo_controller/servo_controller.egg-info/SOURCES.txt'
+[2.675s] writing manifest file '../../build/servo_controller/servo_controller.egg-info/SOURCES.txt'
+[2.675s] running build
+[2.675s] running build_py
+[2.676s] copying servo_controller/serial_node.py -> /home/umark135/ros2_coba2/build/servo_controller/build/lib/servo_controller
+[2.676s] copying servo_controller/teleop_key.py -> /home/umark135/ros2_coba2/build/servo_controller/build/lib/servo_controller
+[2.676s] running install
+[2.690s] running install_lib
+[2.740s] copying /home/umark135/ros2_coba2/build/servo_controller/build/lib/servo_controller/serial_node.py -> /home/umark135/ros2_coba2/install/servo_controller/lib/python3.12/site-packages/servo_controller
+[2.740s] copying /home/umark135/ros2_coba2/build/servo_controller/build/lib/servo_controller/teleop_key.py -> /home/umark135/ros2_coba2/install/servo_controller/lib/python3.12/site-packages/servo_controller
+[2.741s] byte-compiling /home/umark135/ros2_coba2/install/servo_controller/lib/python3.12/site-packages/servo_controller/serial_node.py to serial_node.cpython-312.pyc
+[2.744s] byte-compiling /home/umark135/ros2_coba2/install/servo_controller/lib/python3.12/site-packages/servo_controller/teleop_key.py to teleop_key.cpython-312.pyc
+[2.744s] running install_data
+[2.745s] running install_egg_info
+[2.796s] removing '/home/umark135/ros2_coba2/install/servo_controller/lib/python3.12/site-packages/servo_controller-0.0.0-py3.12.egg-info' (and everything under it)
+[2.797s] Copying ../../build/servo_controller/servo_controller.egg-info to /home/umark135/ros2_coba2/install/servo_controller/lib/python3.12/site-packages/servo_controller-0.0.0-py3.12.egg-info
+[2.798s] running install_scripts
+[3.115s] Installing serial_node script to /home/umark135/ros2_coba2/install/servo_controller/lib/servo_controller
+[3.116s] Installing teleop_key script to /home/umark135/ros2_coba2/install/servo_controller/lib/servo_controller
+[3.116s] writing list of installed files to '/home/umark135/ros2_coba2/build/servo_controller/install.log'
+[3.197s] Invoked command in '/home/umark135/ros2_coba2/src/servo_controller' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/umark135/ros2_coba2/build/servo_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/umark135/ros2_coba2/install/servo_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/servo_controller build --build-base /home/umark135/ros2_coba2/build/servo_controller/build install --record /home/umark135/ros2_coba2/build/servo_controller/install.log --single-version-externally-managed install_data
